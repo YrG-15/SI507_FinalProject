@@ -1,6 +1,7 @@
 import json
 import requests
 import csv
+from secret import Yelpkey
 
 zone_restaurant_dict = {} # {locationID: restaurant dict list}
 
@@ -9,7 +10,6 @@ with open(jsonfolder+filename) as json_file:
 	zone_restaurant_dict = json.load(json_file)
 print(zone_restaurant_dict)
 
-Yelpkey = 'GHzWimFTc5wCCqOOX-f-8IOxhBO2zrdXFHasafLPhdn6Vi6g_jQi0ZD96J5rIX-vcdrPTwges2ZiJNgpShkZCOgE_XQDiIW8whAa4hjlQ21uRLpy3N25RprXfnBHYnYx'
 headers = {'Authorization': 'Bearer %s' % Yelpkey}
 url='https://api.yelp.com/v3/businesses/search'
 
