@@ -1,5 +1,5 @@
 Required package:
-Flask, requests, matplotlib, csv, re
+Flask, requests, matplotlib, csv, re, webbrowser
 
 Get data:
 If you want to get all the data, directly run Getdata.py.
