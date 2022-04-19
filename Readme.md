@@ -1,3 +1,5 @@
+Required package:
+Flask, requests, matplotlib, csv, re
 
 Get data:
 If you want to get all the data, directly run Getdata.py.
