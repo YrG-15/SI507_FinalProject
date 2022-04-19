@@ -1,6 +1,7 @@
 
 Get data:
-If you want to get all the data, directly run Getdata.py
+If you want to get all the data, directly run Getdata.py.
+
 If you want to get part of the data, follow the instruction below:
 1. Run taxi_zone.py to get zones with their location ID and save it in a dictionary.
 2. Add a file called secret.py and add Yelpkey='Your key' in the file. Run zone_retaurants.py to get restaurants in each zone
