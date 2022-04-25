@@ -19,5 +19,5 @@ Data processing(After getting all data):
 
 Data structure:
 Ask user what zone and restaurant information they would like to get.
-Run restaurant_tree.py
+Run restaurant_tree.py.
 User could choose whether to save the tree by typing the filename.
